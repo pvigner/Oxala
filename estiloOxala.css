@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+    background-image: url("/imagens/fundo3.jpg");
+    background-size: 100% 100%;
+}
+
+div.barra-inicial {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    font-size: 10pt;
+    padding: 5px;
+    margin: -10px -10px;
+}
+
+div.barra-inicial img#zap {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+}
+
+header#cabecalho h1 {
+    color: rgb(16, 150, 16);
+    text-align: center;
+    margin: 30px 500px -5px;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+header#cabecalho h5 {
+    color: rgb(16, 150, 16);
+    text-align: center;
+    margin: 0px 500px 80px;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+header#cabecalho h3 {
+    color: rgb(16, 150, 16);
+    font-size: 18pt;
+    margin-left: 0px;
+    padding: 10px;
+    padding-left: 50px;
+    background-color: rgb(255, 255, 255, 0.9);
+}
+
+header#cabecalho img#icone {
+    margin-top: -30px;
+    margin-left: 300px;
+    margin-bottom: 80px;
+    width: 750px;
+    height: 400px;  
+}
+
+header#cabecalho ul {
+    position: absolute;
+    top: 50px;
+    left: -40px;
+}
+
+header#cabecalho li {
+    color: rgb(16, 150, 16);
+    font-size: 14pt;
+    font-weight: 50;
+    margin: 1px;
+    padding: 7px 30px 7px 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: background-color 1s;
+}
+
+header#cabecalho li:hover {
+    background-color: #96c484;
+} 
+
+header#cabecalho a:hover {
+    color: white;
+}
+
+footer#rodape {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 10pt;
+    padding: 10px;
+    margin: -10px;
+}
